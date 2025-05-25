@@ -1,0 +1,22 @@
+{
+  "name": "student_api_node",
+  "version": "1.0.0",
+  "description": "student_api_node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node server.js",
+    "prod": "cross-env NODE_ENV=production node server.js"
+  },
+  "author": "Mohammed Noorudheen MT",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "mysql2": "^3.14.0",
+    "path": "^0.12.7"
+  }
+}
